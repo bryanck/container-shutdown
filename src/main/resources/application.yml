@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: container-shutdown
+
+  # Spring 3.3
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  # Spring 2.7
+  redis:
+    host: localhost
+    port: 6379
+
+logging:
+  level:
+    root: INFO
